@@ -3,9 +3,6 @@ version: 0.2
 phases:
   install:
     commands:
-      - apt install libssl1.0-dev
-      - apt install nodejs-dev
-      - apt install node-gyp
       - apt install npm
 
   pre_build:
